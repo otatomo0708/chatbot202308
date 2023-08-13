@@ -45,7 +45,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「鉄オタ」ボット")
-st.write("chatGPT3.5を利用しています。")
+st.write("ChatGPT3.5を利用しています。")
 st.image("817.jpg")
 st.write("鉄道に関して何でも質問してね。")
 
