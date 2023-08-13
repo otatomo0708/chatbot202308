@@ -32,7 +32,8 @@ def communicate():
     messages.append(user_message)
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        #model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=messages
     )
 
@@ -44,6 +45,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「鉄オタ」ボット")
+st.write("chatGPT3.5を利用しています。")
 st.image("817.jpg")
 st.write("鉄道に関して何でも質問してね。")
 
